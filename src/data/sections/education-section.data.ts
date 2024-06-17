@@ -4,7 +4,7 @@ import { website } from '../helpers/links';
 
 const educationSectionData = {
   config: {
-    title: 'Education',
+    title: 'Other Projects...',
     slug: 'education',
     icon: 'fa6-solid:graduation-cap',
     visible: true,
@@ -13,7 +13,7 @@ const educationSectionData = {
     {
       title: 'Information Technology',
       institution: 'Wrocław University of Science and Technology',
-      image: import('@/assets/logos/wroclaw-university-of-technology.jpg'),
+      // image: import('@/assets/logos/wroclaw-university-of-technology.jpg'),
       dates: [new Date('2014.10'), new Date('2016.07')],
       description: 'Master degree. Specialization in software development.',
       links: [website({ url: '#' })],
@@ -21,7 +21,7 @@ const educationSectionData = {
     {
       title: 'Information Technology',
       institution: 'Wrocław University of Science and Technology',
-      image: import('@/assets/logos/wroclaw-university-of-technology.jpg'),
+      // image: import('@/assets/logos/wroclaw-university-of-technology.jpg'),
       dates: [new Date('2011.10'), new Date('2014.07')],
       description: "Bachelor's degree. Specialization in application development.",
       links: [website({ url: '#' })],

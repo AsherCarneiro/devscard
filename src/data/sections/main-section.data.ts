@@ -10,8 +10,8 @@ const mainSectionData = {
     visible: true,
   },
   image: import('@/assets/my-image.jpeg'),
-  fullName: 'Mark Freeman',
-  role: 'Senior React Developer',
+  fullName: 'Asher Carneiro',
+  role: 'Whattttt',
   details: [
     { label: 'Phone', value: '605 475 6961', url: 'tel:605 475 6961' },
     { label: 'Email', value: 'mark.freeman.dev@gmail.com', url: 'mailto:mark.freeman.dev@gmail.com' },

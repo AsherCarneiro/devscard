@@ -1,17 +1,17 @@
-import type { TestimonialsSection } from '@/types/sections/testimonials-section.types';
-import type { ReadonlyDeep } from 'type-fest';
+// import type { TestimonialsSection } from '@/types/sections/testimonials-section.types';
+// import type { ReadonlyDeep } from 'type-fest';
 import { github, linkedin, website } from '../helpers/links';
 
 const testimonialsSectionData = {
   config: {
-    title: 'Testimonials',
+    title: 'Quotes to Live By',
     slug: 'testimonials',
     icon: 'fa6-solid:comment',
     visible: true,
   },
   testimonials: [
     {
-      image: import('@/assets/testimonials/testimonial-1.jpeg'),
+      // image: import('@/assets/testimonials/testimonial-1.jpeg'),
       author: 'Howard Stewart',
       relation: 'We work together as front-end developers at Google',
       content:
@@ -19,7 +19,7 @@ const testimonialsSectionData = {
       links: [github({ url: '#' }), linkedin({ url: '#' })],
     },
     {
-      image: import('@/assets/testimonials/testimonial-2.jpeg'),
+      // image: import('@/assets/testimonials/testimonial-2.jpeg'),
       author: 'Jean Richards',
       relation: 'My project manager at GitLab',
       content:
@@ -27,14 +27,14 @@ const testimonialsSectionData = {
       links: [linkedin({ url: '#' })],
     },
     {
-      image: import('@/assets/testimonials/testimonial-3.jpeg'),
-      author: 'Jason Fisher',
-      relation: 'My customer for sidewing.com website',
+      // image: import('@/assets/testimonials/testimonial-3.jpeg'),
+      author: 'Socrates',
+      relation: 'Creator of Spongebob',
       content:
-        'Mauris tincidunt at purus vehicula porta. Mauris eget mollis turpis. Sed iaculis rutrum pharetra. Vivamus risus quam, suscipit et semper ut, aliquet ut tellus. Donec quis auctor nunc.',
-      links: [github({ url: '#' }), website({ url: '#' })],
+        'ligma balls and stuff',
+      links: [website({ url: '#' })],
     },
   ],
-} as const satisfies ReadonlyDeep<TestimonialsSection>;
+}
 
 export default testimonialsSectionData;
